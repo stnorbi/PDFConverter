@@ -15,6 +15,14 @@ class PDFConverter(QMainWindow):
         centralWidget.layout().setContentsMargins(0,0,0,0)
         self.setCentralWidget(centralWidget)
 
+        viewLayout = QHBoxLayout()
+        centralWidget.layout().addLayout(viewLayout)
+
+
+        # TODO:keszits 2 inner layout-ot a viewlayout-nak
+
+
+
 
 
 
